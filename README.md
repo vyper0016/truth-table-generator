@@ -2,7 +2,12 @@
 Generate truth tables in html
 ## Usage
 - Clone the repository
-- Install the dependencies using `pip -r requirements.txt`
+- Install the dependencies using the command:
+
+ ```bash
+ pip -r requirements.txt
+ ```
+
 - Use the `generate_table` function in your own code.
 <details>
   <summary>generate_table</summary>
