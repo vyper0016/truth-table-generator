@@ -1,0 +1,33 @@
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    width: auto;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+  }
+  
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    min-width: 40px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #cccaca;
+  }
+  
