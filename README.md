@@ -41,44 +41,6 @@ t = generate_table(['a', 'b', 'c'], [('¬a(b ∧ c)', f)], table_name='table1', 
 ```
 #### Output
 
-<style>
-table {
-    border-collapse: collapse;
-    margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    width: auto;
-    background: white;
-    color: black;
-  }
-  
-  /* Style the table headers */
-  th {
-    background-color: #f2f2f2;
-    border: 1px solid #ddd;
-    padding: 12px;
-    padding-right: 15px;
-    padding-left: 15px;
-    text-align: center;
-  }
-  
-  /* Style the table cells */
-  td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-    min-width: 40px;
-  }
-  
-  /* Style alternating rows */
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-
-  tr:hover {
-    background-color: #cccaca;
-  }
-  </style>
 <table>
     <tr>
         <th>a</th>
